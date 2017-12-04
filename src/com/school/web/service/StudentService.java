@@ -10,5 +10,7 @@ public interface StudentService {
 	public void setCount(int count);
 	public int getCount();
 	public StudentBean[] list();
+	public StudentBean findStudentById(String id);
+	public StudentBean[] findStudentByName(String name);
 	
 }
