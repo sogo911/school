@@ -12,5 +12,7 @@ public interface StudentService {
 	public StudentBean[] list();
 	public StudentBean findStudentById(String id);
 	public StudentBean[] findStudentByName(String name);
+	public void updatePassword(StudentBean student);
+	public void delId(String next);
 	
 }
