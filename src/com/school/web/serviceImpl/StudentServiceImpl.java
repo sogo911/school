@@ -104,7 +104,7 @@ public class StudentServiceImpl implements StudentService {
 	public void updatePassword(StudentBean student) { //업데이트
 		for(int i = 0; i < count;i++) {
 			if(student.getId().equals(students[i].getId())) {
-				this.students[i].setPass(student.getPass());
+				students[i].setPass(student.getPass());
 				break;
 			}
 		}
